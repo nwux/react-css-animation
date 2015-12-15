@@ -1,0 +1,80 @@
+/**
+ * Animation Component Style for uxcore
+ * @author 
+ *
+ * Copyright 2014-2015, Uxcore Team, Alinw.
+ * All rights reserved.
+ */
+
+
+@keyframes slideInDown {
+  from {
+    transform: translate3d(0, -100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slide-down-appear {
+  animation-name: slideInDown;
+}
+
+.slide-down-appear-active {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slide-left-appear {
+  animation-name: slideInLeft;
+}
+
+
+.slide-left-appear-active {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.slide-left-enter {
+  animation-name: slideInLeft;
+}
+
+
+.slide-left-enter-active {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideOutLeft {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    visibility: hidden;
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+.slide-left-leave {
+  animation-name: slideOutLeft;
+}
+
+.slide-left-leave-active {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+

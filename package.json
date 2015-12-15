@@ -1,0 +1,40 @@
+{
+  "name": "react-css-animation",
+  "version": "0.1.0",
+  "description": "A standalone React CSS Transition Group with some modification",
+  "repository": "https://github.com/uxcore/react-css-animation.git",
+  "author": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "gulp server"
+  },
+  "bugs": {
+    "url": "http://github.com/uxcore/uxcore-animation/issues"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "Animation"
+  ],
+  "devDependencies": {
+    "babel-core": "^5.6.18",
+    "babel-loader": "^5.3.1",
+    "browser-sync": "~2.8.2",
+    "console-polyfill": "~0.2.1",
+    "es5-shim": "~4.1.10",
+    "gulp": "~3.9.0",
+    "gulp-concat": "~2.6.0",
+    "gulp-just-replace": "~1.0.2",
+    "gulp-less": "~3.0.3",
+    "gulp-sourcemaps": "~1.5.2",
+    "webpack": "^1.10.5",
+    "react": "^0.14.0",
+    "react-dom": "~0.14.0",
+    "uxcore-kuma": "~1.2.0"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.0"
+  },
+  "contributors": [],
+  "license": "MIT"
+}
